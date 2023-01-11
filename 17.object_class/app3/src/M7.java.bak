@@ -1,0 +1,23 @@
+class M7 
+{
+	public static void main(String[] args) 
+	{
+		Integer i= 10;
+		Integer i1=new Integer(10);
+
+		Character c='c';
+		Character c1=new new Character('c');
+
+		Boolean b=true;
+		Boolean b1=new Boolean(true);
+
+		System.out.println(i.hashcode());
+		System.out.println(i1.hashcode());
+
+		System.out.println(c.hashcode());
+	     System.out.println(c1.hashcode());
+
+	     System.out.println(b.hashcode());
+	     System.out.println(b1.hashcode());
+}
+}
